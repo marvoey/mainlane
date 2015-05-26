@@ -1,0 +1,30 @@
+<?php
+
+/**
+ * Implements hook_menu().
+ */
+function t2dm_custom_menu_menu() {
+
+    $items['abc/def'] = array(
+        //'title' => 'Content',
+        //'description' => 'Find and manage content.',
+        'page callback' => 't2dm_custom_menu_abc_view',
+        //'page arguments' => array(1,'foo'),
+        //'access arguments' => array('access content overview'),
+        //'weight' => -10,
+        //'file' => 'node.admin.inc',
+        //'page callback' => 't2dm_custom_menu_block_view',
+        //'access arguments' => array('access content'),
+        //'menu_name' => 'navigation',
+        //'type' => MENU_CALLBACK,
+    );
+    return $items;
+}
+
+
+function t2dm_custom_menu_abc_view($ghi = 0, $jkl = '') {
+    // ...
+    echo 'I am here ^^';
+}
+
+?>

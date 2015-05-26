@@ -1,0 +1,81 @@
+<?php
+
+/**
+ * Implements hook_block_info().
+ */
+function t2dm_carousel_block_info() {
+    $blocks['t2dm_carousel'] = array(
+        // The name that will appear in the block list.
+        'info' => t('t2dm carousel'),
+        // Default setting.
+        'cache' => DRUPAL_CACHE_PER_ROLE,
+    );
+    return $blocks;
+}
+
+/**
+ * Implements hook_block_view().
+ */
+function t2dm_carousel_block_view($delta = ''){
+    // This example is adapted from node.module.
+    $block = array();
+    $output = '';
+    $slide_html = '';
+    $indicators_html = '';
+    $controls_html = '';
+    $count = '';
+    switch ($delta) {
+        case 't2dm_carousel':
+            $query = new EntityFieldQuery();
+            $query->entityCondition('entity_type', 'node')
+                ->propertyCondition('type', 'slide', '=')
+                ->propertyCondition('status', 1, '=')
+                ->addMetaData('account', user_load(1));
+
+            $result = $query->execute();
+            //dsm($result);
+            $index = 0;
+            $count = $query->count()->execute();
+            //dsm($count);
+            foreach($result['node'] as $nid => $data) {
+                $node = node_load($nid);
+                //dsm($node);
+                $var = array(
+                    'style_name' => 'slide',
+                    'path' => $node->field_img['und'][0]['uri'],
+                );
+                if ($index == '0'){
+                    $indicators_html .= '<li data-target="#carousel-example-generic" data-slide-to="' . $index . '" class="active"></li>';
+                    $slide_html .= '<div class="item active">' . theme('image_style', $var) .'<div class="carousel-caption font-size-20px">' . $node->title . '</div>' . '</div>';
+                }else{
+                    $indicators_html .= '<li data-target="#carousel-example-generic" data-slide-to="' . $index . '"></li>';
+                    $slide_html .= '<div class="item">' . theme('image_style', $var) .'<div class="carousel-caption font-size-20px">' . $node->title . '</div>' . '</div>';
+
+                }
+                $index++;
+                //$img_htmls = '<div class="item">'. $img_html . '</div>' ;
+                //$output = '<h1>' . $img_html . '</h1>';
+
+            }
+            $indicators_html = '<ol class="carousel-indicators">' . $indicators_html . '</ol>';
+            //dsm($indicators_html);
+
+            $slide_html = '<div class="carousel-inner" role="listbox">' . $slide_html . '</div>';
+            //dsm($slide_html);
+            $controls_html = '<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span><span class="sr-only">Previous</span></a><a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><span class="sr-only">Next</span></a>';
+            // dsm($controls_html);
+
+            $block['content'] = '<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">' . $indicators_html . $slide_html . $controls_html .'</div>';
+            //$indicators_html = '<li data-target="#carousel-example-generic" data-slide-to="0" class="active">'
+            //    while
+            //dsm($block['content']);
+
+            break;
+
+
+    }
+    return $block;
+}
+?>
+
+
