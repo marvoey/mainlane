@@ -65,12 +65,10 @@ h1 {
     text-align: center;
     text-transform: uppercase;
 }
-h2, .h2 {
-    font-size: 23px;
-}
+
 .mainlane-body{
     font-size: 20px;
-    line-height: 1.5;
+    line-height: 2.0;
     font-weight: 400;
     padding-left: 50px;
     padding-right: 50px;
@@ -94,4 +92,39 @@ h2, .h2 {
     width: 60%;
     align-content: center;
     margin-left: 20%;
+
 }
+/*** After fixing scroll ****/
+#block-block-1 {
+    /*color:#5F9EA0;
+    text-align:center;*/
+
+    font-size: 18px;
+    line-height: 200%;
+}
+#block-block-3 {
+    /*color:#5F9EA0;*/
+    text-align:center;
+
+    font-size: 18px;
+    line-height: 200%;
+}
+
+#block-views-contact-block
+{
+    /*color:#5F9EA0;*/
+    /*text-align:center;*/
+
+    font-size: 18px;
+    line-height: 200%;
+}
+#block-views-contact-block h2 {
+    text-align:center;
+}
+
+h2, .h2 {
+    color: black;
+
+}
+
+

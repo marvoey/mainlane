@@ -1,94 +1,66 @@
 <?php
-
 /**
  * @file
- * Override of Bootstrap block.tpl.php.
+ * Default theme implementation to display a block.
+ *
+ * Available variables:
+ * - $block->subject: Block title.
+ * - $content: Block content.
+ * - $block->module: Module that generated the block.
+ * - $block->delta: An ID for the block, unique within each module.
+ * - $block->region: The block region embedding the current block.
+ * - $classes: String of classes that can be used to style contextually through
+ *   CSS. It can be manipulated through the variable $classes_array from
+ *   preprocess functions. The default values can be one or more of the
+ *   following:
+ *   - block: The current template type, i.e., "theming hook".
+ *   - block-[module]: The module generating the block. For example, the user
+ *     module is responsible for handling the default user navigation block. In
+ *     that case the class would be 'block-user'.
+ * - $title_prefix (array): An array containing additional output populated by
+ *   modules, intended to be displayed in front of the main title tag that
+ *   appears in the template.
+ * - $title_suffix (array): An array containing additional output populated by
+ *   modules, intended to be displayed after the main title tag that appears in
+ *   the template.
+ *
+ * Helper variables:
+ * - $classes_array: Array of html class attribute values. It is flattened
+ *   into a string within the variable $classes.
+ * - $block_zebra: Outputs 'odd' and 'even' dependent on each block region.
+ * - $zebra: Same output as $block_zebra but independent of any block region.
+ * - $block_id: Counter dependent on each block region.
+ * - $id: Same output as $block_id but independent of any block region.
+ * - $is_front: Flags true when presented in the front page.
+ * - $logged_in: Flags true when the current user is a logged-in member.
+ * - $is_admin: Flags true when the current user is an administrator.
+ * - $block_html_id: A valid HTML ID and guaranteed unique.
+ *
+ * @see bootstrap_preprocess_block()
+ * @see template_preprocess()
+ * @see template_preprocess_block()
+ * @see bootstrap_process_block()
+ * @see template_process()
+ *
+ * @ingroup themeable
  */
-$padding_top='';
-
-if($block_html_id=='block-block-1')
-{
-    $block_html_id = 'about';
-    $padding_top = 'style="padding-top: 200px;"';
-
-}
-if($block_html_id == 'block-block-3') {
-    $block_html_id = 'service';
-   $padding_top = 'style="padding-top: 200px;"';
-}
-
 ?>
 
 
-<!--<section id="<?php //print $block_html_id; ?>" class="<?php //print $classes;?>"<?php //print $attributes; ?>>-->
-<section id="<?php print $block_html_id; ?>" class="<?php print $classes;?>"<?php print $attributes; ?><?php print $padding_top; ?>>
+<?php if ($block_html_id == "block-t2dm-carousel-t2dm-carousel") { ?>
+    <section id="<?php print $block_html_id; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?> >
+<?php } else { ?>
+    <section id="<?php print $block_html_id; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?> style="padding-top: 0px; margin-top: 50px; ">
+<?php } ?>
+
+
 
   <?php print render($title_prefix); ?>
   <?php if ($title): ?>
-    <h2 class="mainlane-title"><?php print $title; ?></h2>
+    <h2<?php print $title_attributes; ?>><?php print $title; ?></h2>
   <?php endif;?>
   <?php print render($title_suffix); ?>
 
-
-    <!--T2DM Carousel -->
-    <?php if ($block_html_id == 'block-t2dm-carousel-t2dm-carousel'): ?>
-        <?php print $content ?>
-    <?php endif ?>
-
-    <!-- About block -->
-    <?php if ($block_html_id == 'about'): ?>
-        <div class="block-content mainlane-body"><?php print $content ?></div>
-    <?php endif ?>
-
-
-    <!--<div class="block-content mainlane-body"><?php //print $content ?></div>-->
-  <?php if($block_html_id == 'service'): ?>
-      <?php //print $content ?>
-      <div class="row" style="padding-top: 10px;" >
-          <div class="col-xs-12 col-md-4" >
-              <a href="#" class="thumbnail mainlane-body" ">
-                  <p>Concrete pavement replacement</p>
-              </a>
-          </div>
-          <div class="col-xs-12 col-md-4" >
-              <a href="#" class="thumbnail mainlane-body"  >
-                  <p>Asphalt Replacement</p>
-              </a>
-          </div>
-          <div class="col-xs-12 col-md-4" >
-              <a href="#" class="thumbnail mainlane-body">
-                  Structural Concrete and Steel Repair
-              </a>
-          </div>
-      </div>
-
-      <div class="row">
-          <div class="col-xs-12 col-md-4" >
-              <a href="#" class="thumbnail mainlane-body"  >
-                  Emergency Cleanup and Repair
-              </a>
-          </div>
-          <div class="col-xs-12 col-md-4" >
-              <a href="#" class="thumbnail mainlane-body"  >
-                  Road Improvements and Realignments
-              </a>
-          </div>
-          <div class="col-xs-12 col-md-4" style="height: 70px;">
-              <a href="#" class="thumbnail mainlane-body" style="height: 100%;">
-                  Bridge Maintenance
-              </a>
-          </div>
-      </div>
-
-      <div class="row">
-        <div class="col-xs-12 col-md-12" >
-
-            <h2 class="mainlane-title">We response within 4 hrs and operate 24 hrs a day</h2>
-
-        </div>
-
-      </div>
-
-  <?php endif; ?>
+  <?php print $content ?>
 
 </section> <!-- /.block -->
