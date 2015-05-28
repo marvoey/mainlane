@@ -124,7 +124,9 @@ h1 {
 
 h2, .h2 {
     color: black;
-
 }
 
+.table-striped tbody > tr:nth-of-type(2n+1) {
+    background-color: #f9f9f9;
+}
 
