@@ -44,13 +44,15 @@
  *
  * @ingroup themeable
  */
+
+/*** Adding class in the section level ***/
 ?>
 
 
 <?php if ($block_html_id == "block-t2dm-carousel-t2dm-carousel") { ?>
     <section id="<?php print $block_html_id; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?> >
 <?php } else { ?>
-    <section id="<?php print $block_html_id; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?> style="padding-top: 0px; margin-top: 50px; ">
+    <section id="<?php print $block_html_id; ?>" class="<?php print $classes; ?> clearfix" <?php print $attributes; ?> style="padding-top: 0px; margin-top: 50px; ">
 <?php } ?>
 
 

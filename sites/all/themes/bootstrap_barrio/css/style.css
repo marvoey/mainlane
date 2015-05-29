@@ -68,7 +68,7 @@ footer.footer { background: black; margin: 0; }
 #block-menu-menu-menu-footer .menu li a:hover { background: transparent; text-decoration: underline; }
 
 /*#block-block-1 { text-align: center; color: white; }*/
-#block-block-1 { text-align: center; color: cadetblue; }
+#block-block-1 { text-align: justify; color: cadetblue; }
 
 /*#block-block-1 a { color: white; }*/
 #block-block-1 a { color: cadetblue; }

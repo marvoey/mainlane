@@ -124,6 +124,7 @@ h1 {
 
 h2, .h2 {
     color: black;
+    text-align: center;
 }
 
 .table-striped tbody > tr:nth-of-type(2n+1) {

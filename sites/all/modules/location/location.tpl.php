@@ -5,7 +5,8 @@
  * Template for displaying single location.
  */
 ?>
-<div class="location vcard" itemscope itemtype="http://schema.org/PostalAddress">
+
+<div class="location vcard " itemscope itemtype="http://schema.org/PostalAddress">
   <div class="adr">
     <?php if (!empty($name)): ?>
       <span class="fn" itemprop="name"><?php print $name; ?></span>
