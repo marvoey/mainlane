@@ -131,3 +131,8 @@ h2, .h2 {
     background-color: #f9f9f9;
 }
 
+
+/* hide lat & long in the gmap popup*/
+.geo {
+    display: none;
+}

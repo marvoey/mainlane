@@ -22,7 +22,13 @@
  * the view is modified.
  */
 ?>
-<div class="row">
+<!-- style: To match with the carousel. To look like 12px border around the map. Depends on size of map -->
+<div class="row" align="center"  style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.25));
+     width: 900px; height: 474px; padding-top: 12px; margin-left: 0; margin-right: 0;">
+
 <?php print $output; ?>
 </div>
-<?php //dsm($output); ?>
+
+<!--background-image:
+right---linear-gradient(to right, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.5) 100%)
+left---linear-gradient(to right, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.5) 100%);-->
