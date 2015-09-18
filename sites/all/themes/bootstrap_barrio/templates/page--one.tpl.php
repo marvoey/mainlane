@@ -4,7 +4,7 @@
  * @file
  * Override of Bootstrap page.tpl.php.
  */
-$logo="http://mc2mainlane.dev/sites/all/themes/bootstrap_barrio/mainlanelogo.png";
+$logo="http://mainlane.mc2civil.com/sites/all/themes/bootstrap_barrio/mainlanelogo.png";
 ?>
 <?php if (!empty($secondary_nav) || !empty($page['top'])): ?>
     <header role="banner">
