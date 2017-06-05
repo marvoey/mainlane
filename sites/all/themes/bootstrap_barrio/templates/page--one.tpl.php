@@ -160,8 +160,11 @@ $logo="http://mainlane.mc2civil.com/sites/all/themes/bootstrap_barrio/mainlanelo
 
 </div>
 
-<footer class="footer">
-    <div id="footer-inner" class="container">
-        <?php print render($page['footer']); ?>
-    </div>
-</footer>
+<?php if (!empty($page['footer'])): ?>
+    <footer class="footer">
+        <div id="footer-inner" class="container">
+            <?php print render($page['footer']); ?>
+        </div>
+    </footer>
+<?php endif; ?>
+
