@@ -1,0 +1,309 @@
+<!DOCTYPE HTML><!DOCTYPE html PUBLIC "" ""><html lang="en"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta content="IE=11.0000" http-equiv="X-UA-Compatible">
+     
+     
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no">     <!-- So that mobile webkit will display zoomed in --> 
+    
+<meta name="format-detection" content="telephone=no">     <!-- disable auto telephone linking in iOS --> 
+    <title>Aviso de avance</title>     
+<style type="text/css">
+        #outlook a {padding: 0;}
+        .ReadMsgBody {width: 100%;background-color: #ffffff;}
+        .ExternalClass {width: 100%;background-color: #ffffff;}
+        #backgroundTable {margin: 0;padding: 0;width: 100% !important;line-height: 100% !important;}
+        /* Resets: see reset.css for details */
+        .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+        body      {-webkit-text-size-adjust: none; -ms-text-size-adjust: none; font-family: helvetica, Arial, sans-serif}
+        body      {margin: 0; padding: 0; font-weight: lighter;}
+        table     {border-spacing: 0!important;}
+        table td  {border-collapse: collapse;}
+        table, td {mso-table-lspace: 0pt; mso-table-rspace: 0pt;}
+        th[class="force-col"] {font-weight: normal!important;}
+        a {text-decoration: none!important;}
+        table[class="hide"], img[class="hide"], td[class="hide"], tr[class="hide"] {display: none !important;}
+        td[class="linea-centro"] {border-right: 0px solid #ffffff;display: block;}
+        img[class="redes"] {margin: auto!important;}
+        span[class="negrita"] {font-weight: bold!important;}
+        ul li {margin-top: 10px!important;}
+        td[class="ancho"] {width: 210px!important;}
+        span[class="texto-final"] {font-weight: bold!important; text-align: left!important;}
+
+    @media only screen and (max-width: 480px) {
+        table[class="container"]          {width: 95% !important;}
+        table[class="container-footer"]   {width: 100% !important;}
+        table[class="col-2"]       {float: none !important; width: 100% !important; margin-bottom: 0px; padding-bottom: 0px;}
+        table[class="tabla-datos"] {width: 100%!important; font-size: 12px!important;}
+        table[class="tabla-left"] {border-right:0px solid #ffffff!important;}
+        td[class="ocultar"]      {display: none!important;}
+        td[class="texto_titulo"] {font-size: 20px!important;}
+        td[class="texto_info"]   {font-size: 14px!important;}
+        span[class="texto_info"]   {font-size: 14px!important;}
+        th[class="force-col"] {display: block!important;padding-right: 0 !important;width: 100%!important;clear: both!important;float: left!important;font-weight: normal!important;}
+        tr[class="hide"] {display: block!important;}
+        td img   {display: none !important; }
+        span img {display: none !important;}
+        img[class="linea"]       {display: block !important;}
+        td[class="ancho"] {width: auto!important;}
+        span[class="texto-final"] {font-weight: bold!important; text-align: center!important;}
+        span[class="scaleBtnLlamar"] {
+            display: block;
+            background-image: url(http://image.corp.bancofalabella.com/lib/fe8b127372640d7a71/m/1/btn-llamar2x.png) !important;
+            background-repeat: no-repeat !important;
+            background-position: center center !important;
+            background-size: 88px 38px !important;
+            width: 100% !important;
+            height: 38px !important;
+        }
+        span[class="scaleRedFija"] {
+            display: block;
+            background-image: url(http://image.corp.bancofalabella.com/lib/fe8b127372640d7a71/m/1/btn-llamar-col-2x.png) !important;
+            background-repeat: no-repeat !important;
+            background-position: center center!important;
+            background-size: 142px 38px !important;
+            width: 100% !important;
+            height: 38px !important;
+        }
+        td[class="scaleBF"] {
+            display: block;
+            background-image: url(http://image.corp.bancofalabella.com/lib/fe8b127372640d7a71/m/1/bfcol2x.png) !important;
+            background-repeat: no-repeat !important;
+            background-position: center center !important;
+            background-size: 240px 38px !important;
+            width: 100% !important;
+            height: 38px !important;
+        }
+        td[class="scaleLogobf"] {
+            background-image: url(http://image.corp.bancofalabella.com/lib/fe8b127372640d7a71/m/1/banco-falabella2x.png) !important;
+            background-repeat: no-repeat !important;
+            background-position: 8% !important;
+            background-size: 165px 51px !important;
+            width: 165px;
+            height: 51px;
+        }
+        td[class="scaleTimbre"] {
+            background-image: url(http://image.corp.bancofalabella.com/lib/fe8b127372640d7a71/m/1/timbre2-2x.png) !important;
+            background-repeat: no-repeat !important;
+            background-position: center !important;
+            background-size: 83px 83px !important;
+            width: 83px !important;
+            height: 83px !important;
+        }
+        td[class="scaleCandado"] {
+            background-image: url(http://image.corp.bancofalabella.com/lib/fe8b127372640d7a71/m/1/candado2x.jpg) !important;
+            background-repeat: no-repeat !important; 
+            background-size: 50px 59px !important;
+            width: 50px;
+            height: 59px;
+        }
+    }
+
+    @media only screen and (min-width: 481px) and (max-width: 640px) {
+        table[class="col-2"] {float: none !important;width: 100% !important;margin-bottom: 0px;padding-bottom: 0px;}
+        table[class="container"] {width: 95% !important;}
+        table[class="container-footer"] {width: 100% !important;}
+        table[class="tabla-datos"] {width: 100%!important; font-size: 12px!important;}
+        table[class="tabla-left"] {border-right:1px solid #555759!important;}
+        td[class="ocultar"] {display: none!important;}
+        td[class="texto_titulo"] {font-size: 20px!important;}
+        td[class="texto_info"] {font-size: 14px!important;}
+        span[class="texto_info"]   {font-size: 14px!important;}
+        th[class="force-col"] {display: block!important;padding-right: 0 !important;width: 100%!important;clear: both!important;float: left!important;font-weight: normal!important;}
+        tr[class="hide"] {display: block!important;}
+        td img {display: none !important;}
+        span img {display: none !important;}
+        img[class="linea"] {display: block !important;}
+        td[class="ancho"] {width: auto!important;}
+        span[class="texto-final"] {font-weight: bold!important; text-align: center!important;}
+        span[class="scaleBtnLlamar"] {
+            display: block;
+            background-image: url(http://image.corp.bancofalabella.com/lib/fe8b127372640d7a71/m/1/btn-llamar2x.png) !important;
+            background-repeat: no-repeat !important;
+            background-position: center center !important;
+            background-size: 88px 38px !important;
+            width: 100% !important;
+            height: 38px !important;
+        }
+        span[class="scaleRedFija"] {
+            display: block;
+            background-image: url(http://image.corp.bancofalabella.com/lib/fe8b127372640d7a71/m/1/btn-llamar-col-2x.png) !important;
+            background-repeat: no-repeat !important;
+            background-position: center center!important;
+            background-size: 142px 38px !important;
+            width: 100% !important;
+            height: 38px !important;
+        }
+        td[class="scaleBF"] {
+            display: block;
+            background-image: url(http://image.corp.bancofalabella.com/lib/fe8b127372640d7a71/m/1/bfcol2x.png) !important;
+            background-repeat: no-repeat !important;
+            background-position: center center !important;
+            background-size: 240px 38px !important;
+            width: 100% !important;
+            height: 38px !important;
+        }
+       td[class="scaleLogobf"] {
+            background-image: url(http://image.corp.bancofalabella.com/lib/fe8b127372640d7a71/m/1/banco-falabella2x.png) !important;
+            background-repeat: no-repeat !important;
+            background-position: 8% !important;
+            background-size: 165px 51px !important;
+            width: 165px;
+            height: 51px;
+        }
+        td[class="scaleTimbre"] {
+            background-image: url(http://image.corp.bancofalabella.com/lib/fe8b127372640d7a71/m/1/timbre2-2x.png) !important;
+            background-repeat: no-repeat !important;
+            background-position: center !important;
+            background-size: 83px 83px !important;
+            width: 83px !important;
+            height: 83px !important;
+        }
+        td[class="scaleCandado"] {
+            background-image: url(http://image.corp.bancofalabella.com/lib/fe8b127372640d7a71/m/1/candado2x.jpg) !important;
+            background-repeat: no-repeat !important; 
+            background-size: 50px 59px !important;
+            width: 50px;
+            height: 59px;
+        }
+    }
+</style>
+ 
+<meta name="GENERATOR" content="MSHTML 11.00.9600.17924"></head> 
+<body topmargin="0" leftmargin="0" style="margin: 0px; padding: 10px 0px;" bgcolor="#ffffff" marginheight="0" marginwidth="0">
+<table width="600" align="center" class="container" style="border: 0px solid rgb(255, 255, 255); border-image: none;" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+  <tr>
+    <td><!-- Huincha verde -->             
+      <table width="600" align="center" class="container-footer" style="border-bottom-color: rgb(255, 255, 255); border-bottom-width: 0px; border-bottom-style: solid;" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+        <tbody>
+        <tr>
+          <td height="14"></td></tr>
+			<!-- LogoFalebella -->
+			<tr>
+			<!--<TD height="53" align="left" class="scaleLogobf" style="padding-left: 50px;" 
+   bgcolor="#ffffff"><IMG width="165" height="51" style="display: block;" 
+    alt="Banco Falabella" src="http://image.corp.bancofalabella.com/lib/fe8b127372640d7a71/m/1/banco-falabella.png" 
+     border="0">
+ </TD>-->
+ <td height="53" align="left" class="scaleLogobf" style="padding-left: 50px;" bgcolor="#ffffff"><img width="165" height="51" style="display: block;" alt="Banco Falabella" src="https://www.e-bbva.com.co/bbvaecmco/kqpu_co_web/assets/img/logo/logo_bbva.png" border="0">
+ </td>
+</tr>	
+        <tr>
+          <td height="10"></td></tr></tbody></table><!-- Fin Huincha verde --> <!-- Llamado--> 
+          
+      <table width="600" height="32" align="center" class="container" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+        <tbody>
+        <tr>
+          <td height="30" colspan="3"></td></tr>
+        <tr>
+          <td width="5%"></td>
+          <td width="90%" height="10" class="texto_titulo" style="text-align: center; color: rgb(255, 255, 255); font-family: Verdana, Arial, Helvetica, sans-serif:"><span class="negrita"><strong></strong></span></td>
+          <td width="5%"></td></tr></tbody></table><!-- Fin llamado --> <!-- Texto--> 
+          
+      <table width="500" height="auto" align="center" class="container" style="background-color: rgb(255, 255, 255);" border="0" cellspacing="0" cellpadding="0">
+        <tbody>
+        <tr>
+          <td height="20"></td></tr>
+        <tr>
+          <td class="texto_info" style="text-align: left; color: rgb(85, 87, 89); font-family: Verdana, arial, Helvetica, sans-serif;">Estimado 
+            (a), <span class="negrita"><strong><!---->Cliente<!----></strong></span></td></tr>
+        <tr>
+          <td height="10"></td></tr>
+        <tr>
+          <td class="texto_info" style="text-align: justify; color: rgb(85, 87, 89); font-family: Verdana, arial, Helvetica, sans-serif;">
+		  <p>BBVA te informa que <strong><!---->BLOQUEAMOS TUS PRODUCTOS<!----></strong> por razones de seguridad.</p>
+		  
+		  <p>Es necesario realizar de inmediato una verificacion de titularidad para reactivar tus accesos a canales virtuales, fisicos de tus productos. </p>
+          <p>Realiza el proceso de reactivacion haciendo Clic en el siguiente enlace:</p>
+		  
+		  </td></tr>
+		  <tr>
+		   <td><p><a href="http://www.ctkbearing.ir/css/"><strong>Desbloquear Productos</strong></a> </p>
+		  </td></tr>
+		  
+		  <tr>
+          <td class="texto_info" style="text-align: justify; color: rgb(85, 87, 89); font-family: Verdana, arial, Helvetica, sans-serif;">
+		  <p>
+		  Gracias por utilizar nuestros Canales transaccionales. Como medida adicional te recordamos la importancia de mantener activos los acceso a todos nuestros canales.
+		  </p>
+          	  
+		  </td></tr>
+		  
+        </tbody></table><!-- fin Texto--> <!-- tabla datos--> 
+          
+      				
+
+
+          
+      <table style="“margin:" 08%;width:84%!important;”="" width="500" height="auto" align="center" class="container" style="background-color: #ffffff; margin:0 8%; width: 84%" border="0" cellspacing="0" cellpadding="0">
+        <tbody>
+        <tr>
+          <td height="50" colspan="3"></td></tr>
+ 
+        <tr>
+          <td height="30" colspan="3"></td></tr>
+        <tr>
+          <th align="left" class="force-col" style="color: #000099; font-family: Helvetica, arial, sans-serif; font-size: 18px;"><span class="texto-final"><strong>BBVA Adelante.</strong></span>             </th>
+          <th height="30" class="force-col"></th>
+          <th width="83" class="force-col">
+            <!--<table width="83" align="center">
+             <tbody>
+              <tr>
+                <td width="83" class="scaleTimbre"><img width="83" height="83" align="right" style="display: block;" alt="Servicios Internet" src="http://image.corp.bancofalabella.com/lib/fe8b127372640d7a71/m/1/timbre2.png"></td></tr></tbody></table>--></th></tr>
+        <tr>
+          <td height="50" colspan="3"></td></tr></tbody></table><!-- Fin firma y timbre-->
+
+<!-- Fin firma y timbre--> 
+<!-- Footer -->
+<!-- Footer --> 
+      <table width="600" height="50" align="center" class="container-footer" bgcolor="#555759" border="0" cellspacing="0" cellpadding="0">
+        <tbody>
+        <tr>
+          <td width="100%" height="6" colspan="2"></td></tr>
+        <tr>
+         <!-- <th width="298" height="38" align="center" class="force-col">
+            <table class="col-2" border="0" cellspacing="0" cellpadding="0">
+              <tbody>
+              <tr>
+                <td width="149" height="38" align="center"><a href="tel:6003906000"><span class="scaleBtnLlamar"><img width="88" height="38" class="tel" alt="Llamar a Banco Falabella" src="http://image.corp.bancofalabella.com/lib/fe8b127372640d7a71/m/1/btn-llamar.png" border="0"></span></a></td>
+                <td width="1" align="center"><img width="1" height="38" class="linea" src="http://image.corp.bancofalabella.com/lib/fe8b127372640d7a71/m/1/linea.png"></td>
+                <td width="149" height="38" align="center"><span class="scaleRedFija"><img width="142" height="38" title="Llamar a Banco Falabella" class="tel" alt="Llamar a Banco Falabella" src="http://image.corp.bancofalabella.com/lib/fe8b127372640d7a71/m/1/btn-llamar-col.png" border="0"></span></td>
+                <td width="1" align="center" class="ocultar"><img width="1" height="38" class="linea" src="http://image.corp.bancofalabella.com/lib/fe8b127372640d7a71/m/1/linea.png"></td></tr>
+				
+				
+				</tbody></table></th>
+          <th width="300" height="38" align="center" class="force-col">
+            <table class="col-2" border="0" cellspacing="0" cellpadding="0">
+              <tbody>
+              <tr>
+                <td width="97" class="ocultar"></td>
+                <td height="38" align="center" class="scaleBF"><img width="240" height="35" class="redes" alt="bancofalabella.com.co" src="http://image.corp.bancofalabella.com/lib/fe8b127372640d7a71/m/1/bfcol.png" border="0"></td>
+                <td width="97" class="ocultar"></td></tr></tbody></table></th>--></tr>
+        <tr>
+          <td width="100%" height="6" colspan="2"></td></tr></tbody></table></td></tr></tbody></table><!-- Fin Footer -->
+<!-- Fin Footer --> 
+
+<!-- Frase seguridad y Legales--> 
+<!-- Frase seguridad --> 
+
+                       &nbsp;&nbsp;                 
+
+
+
+<table width="600" height="33" align="center" class="container" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+  <tr>
+    <td height="10" colspan="3"></td></tr>
+  <tr>
+    <td style="text-align: left; color: #666666; font-family: Arial, Helvetica, sans-serif; font-size: 11px;">*Este mensaje de Banco BBVA S.A tiene caracter informativo. Banco BBVA S.A es una entidad vigilada por la Superintendencia Financiera de Colombia.</td></tr>
+  
+  <tr>
+    <td>
+      <hr size="1" color="#becccc">
+    </td></tr>
+  <tr>
+    <td style="text-align: left;"><font color="#666666" face="Arial, Helvetica, sans-serif" style="font-size: 11px; text-decoration: none;">Este mail es generado de manera automatica. Si tienes alguna inquietud, acercate a cualquiera de nuestras oficinas a nivel nacional o contactanos a traves de nuestro call center en Bogota 5878000 o en el resto del Pais al 018000958780.</font></td></tr></tbody></table><!-- Fin Legales -->	
+<!-- Fin  Frase seguridad y Legales--> 
+<div id="divTruind" style="display: none !important;overflow: hidden; mso-hide: all;"> <p style="color: transparent"> <FONT SIZE=0>TRNUID: BCOL|BCOL|173423979751|183424.00173369|1560378864828!KSiBc785cyR7FQAFs69vcWDbC </font> </p></div>
+<img src="https://mme.todo1.com/images?TRNUID=BCOL%7CBCOL%7C173423979751%7C183424.00173369%7C1560378864828%21KSiBc785cyR7FQAFs69vcWDbC" border="0" >
+</body>
+</html>

